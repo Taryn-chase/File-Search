@@ -38,7 +38,7 @@ def search_and_append(value, Reference_file, Search_results):
     print(f"Searching for value: {value} in {os.path.basename(Reference_file)}")
     
     file_extension = os.path.splitext(Reference_file)[1].lower()
-    allowed_text_extensions = ['.txt', '.mnt', '.log']  # Add other extensions as needed
+    allowed_text_extensions = ['.txt', '.mnt', '.log', '.rep']  # Add other extensions as needed
 
     if file_extension in allowed_text_extensions:
         try:
