@@ -18,4 +18,11 @@ Make sure the .py is excuatable
     Run in Terminal
     chmod +x /path/to/file/File_search.py
     
+Ensure the correct libraries are installed
+    
+    pip install PyPDF2 openpyxl
 
+If you have both Python 2 and Python 3 installed, you might need to use pip3 instead of pip to ensure that the libraries are installed for Python 3:
+
+
+    pip3 install PyPDF2 openpyxl
